@@ -11,8 +11,10 @@ The idea of the project stems from the fact that each sound corresponds to a spe
 
 - RGB Images: Reduction of the number of frames to 150, without skipping frames, resizing videos to 50x50 format, and saving in np.array.
 <img width="497" alt="image" src="https://github.com/user-attachments/assets/0d0128a0-b1d3-4a42-b215-c7a5b22ecc66" />
+
+
 - Gray scale Images: Reduction of the number of frames to 150, without skipping frames, resizing videos to 50x50 format, converting videos to grayscale, and saving in np.array
-<img width="148" alt="image" src="https://github.com/user-attachments/assets/2e35c4e1-9f9c-45ac-929a-8c52eef08123" />
+<img width="504" alt="image" src="https://github.com/user-attachments/assets/d2a245f8-a114-4db0-9750-d99b4c3960f6" />
 
 
 ## Neural network
@@ -21,6 +23,8 @@ The idea of the project stems from the fact that each sound corresponds to a spe
 - Dropout: A regularization layer used to reduce overfitting
 - Dense Layer: A dense layer with 8 neurons and a softmax activation function calculates the probabilities associated with each class.
 <img width="501" alt="image" src="https://github.com/user-attachments/assets/9772f903-5caf-4fa2-8923-dc78f077c8a0" />
+
+
 ### Neural network for GrayScale images
 - Conv2D: A non-recurrent network used to extract relevant features from the frames and reduce dimensionality
 - Dropout: A regularization layer used to reduce overfitting
@@ -29,7 +33,6 @@ The idea of the project stems from the fact that each sound corresponds to a spe
 
 ## Metrics of Evaluation
 ### Evaluation of RGB images
-![image](https://github.com/user-attachments/assets/0fe620b0-f85f-4355-a91c-c9698b1cf495)
 <img width="379" alt="image" src="https://github.com/user-attachments/assets/7c079014-f095-4679-92b8-c292eac58005" />
 
 ### Evaluation of GrayScale images
