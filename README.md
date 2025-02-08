@@ -5,6 +5,7 @@ Our dataset consisted of 960 videos in the training set, 160 in the test set, an
 Key features: Python, Scikit-learn, Tensorflow, Google Colab, Keras, Seaborn
 
 The idea of the project stems from the fact that each sound corresponds to a specific articulation linked to facial movements.
+
 ![image](https://github.com/user-attachments/assets/ed653471-dacc-47d8-839c-7ab455782a19)
 
 ## Fase di pre-processing
